@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCNA 200-301 Exam Syllabus - Interactive Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo">CCNA 200-301 V1.1</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#fundamentals">Fundamentals</a></li>
+                <li><a href="#access">Access</a></li>
+                <li><a href="#connectivity">Connectivity</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#security">Security</a></li>
+                <li><a href="#automation">Automation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Interactive Guide to the CCNA 200-301 Exam</h1>
+            <p class="subtitle">An upgraded, comprehensive overview of the skills required for Cisco's premier networking certification.</p>
+            <a href="#fundamentals" class="cta-button">Start Exploring</a>
+        </div>
+    </section>
+
+    <!-- Main Content Sections -->
+    <main>
+        <!-- 1.0 Network Fundamentals -->
+        <section id="fundamentals" class="skill-domain">
+            <h2>1.0 Network Fundamentals (20%)</h2>
+            <p class="section-description">This domain covers the foundational knowledge of network components, architectures, and the core principles of IP addressing and connectivity.</p>
+            <div class="skill-grid">
+                <div class="skill-card"><h3>1.1 Network Components</h3><ul><li>Explain the role of Routers & L2/L3 Switches</li><li>Describe Next-gen firewalls and IPS</li><li>Understand Access points, Controllers, Endpoints, and Servers</li></ul></div>
+                <div class="skill-card"><h3>1.2 Topologies</h3><ul><li>Compare Two-Tier, Three-Tier, and Spine-Leaf</li><li>Describe WAN and SOHO architectures</li><li>Differentiate On-premises vs. Cloud</li></ul></div>
+                <div class="skill-card"><h3>1.3-1.5 Physical & Transport</h3><ul><li>Compare fiber, copper, and connection types</li><li>Identify interface issues (collisions, errors, duplex)</li><li>Contrast the roles and functions of TCP and UDP</li></ul></div>
+                <div class="skill-card"><h3>1.6-1.7 IPv4 Addressing</h3><ul><li>Configure and verify IPv4 addressing and subnetting</li><li>Describe private IPv4 addressing schemes (RFC1918)</li></ul></div>
+                <div class="skill-card"><h3>1.8-1.10 IPv6 Addressing</h3><ul><li>Configure and verify IPv6 addressing and prefix</li><li>Describe IPv6 address types (Unicast, Anycast, Multicast)</li><li>Verify IP parameters on client operating systems</li></ul></div>
+                <div class="skill-card"><h3>1.11-1.13 Core Concepts</h3><ul><li>Explain wireless principles (Channels, SSID, RF)</li><li>Describe virtualization fundamentals (VMs, Containers, VRFs)</li><li>Understand switching concepts (MAC learning, flooding)</li></ul></div>
+            </div>
+        </section>
+
+        <!-- 2.0 Network Access -->
+        <section id="access" class="skill-domain">
+            <h2>2.0 Network Access (20%)</h2>
+            <p class="section-description">Focuses on configuring and verifying VLANs, interswitch connectivity, Layer 2 protocols, and WLAN components.</p>
+            <div class="skill-grid">
+                <div class="skill-card"><h3>2.1 VLANs & InterVLAN Routing</h3><ul><li>Configure VLANs (normal range) across switches</li><li>Set up access ports for data and voice</li><li>Implement InterVLAN connectivity</li></ul></div>
+                <div class="skill-card"><h3>2.2 Interswitch Connectivity</h3><ul><li>Configure 802.1Q trunk ports</li><li>Understand the role of the Native VLAN</li></ul></div>
+                <div class="skill-card"><h3>2.3-2.4 L2 Protocols</h3><ul><li>Configure and verify CDP and LLDP</li><li>Configure L2/L3 EtherChannel using LACP</li></ul></div>
+                <div class="skill-card"><h3>2.5 Rapid PVST+</h3><ul><li>Interpret root bridge, port roles, and states</li><li>Understand PortFast, BPDU Guard, and other features</li></ul></div>
+                <div class="skill-card"><h3>2.6-2.7 Wireless Architecture</h3><ul><li>Describe Cisco Wireless Architectures and AP modes</li><li>Explain physical connections for WLAN components (AP, WLC)</li></ul></div>
+                <div class="skill-card"><h3>2.8-2.9 Device & WLAN Access</h3><ul><li>Describe device management access methods</li><li>Interpret wireless LAN GUI for client connectivity</li></ul></div>
+            </div>
+        </section>
+
+        <!-- 3.0 IP Connectivity -->
+        <section id="connectivity" class="skill-domain">
+            <h2>3.0 IP Connectivity (25%)</h2>
+            <p class="section-description">The largest domain, covering routing tables, how routers make forwarding decisions, static routing, and single-area OSPFv2.</p>
+            <div class="skill-grid">
+                <div class="skill-card"><h3>3.1 Routing Table Components</h3><ul><li>Interpret protocol code, prefix, and mask</li><li>Identify next hop, administrative distance, and metric</li><li>Understand the gateway of last resort</li></ul></div>
+                <div class="skill-card"><h3>3.2 Router Forwarding Decision</h3><ul><li>Explain how a router uses the longest prefix match</li><li>Describe the roles of AD and metric in path selection</li></ul></div>
+                <div class="skill-card"><h3>3.3 Static Routing</h3><ul><li>Configure and verify IPv4/IPv6 static routes</li><li>Implement default, network, host, and floating static routes</li></ul></div>
+                <div class="skill-card"><h3>3.4 Single-Area OSPFv2</h3><ul><li>Configure neighbor adjacencies</li><li>Set up OSPF on point-to-point and broadcast networks</li><li>Understand DR/BDR selection and Router ID</li></ul></div>
+                <div class="skill-card"><h3>3.5 First Hop Redundancy</h3><ul><li>Describe the purpose and concepts of FHRPs like HSRP and VRRP</li></ul></div>
+            </div>
+        </section>
+        
+        <!-- 4.0 IP Services -->
+        <section id="services" class="skill-domain">
+            <h2>4.0 IP Services (10%)</h2>
+            <p class="section-description">Covers essential network services including NAT, NTP, DHCP, DNS, SNMP, QoS, and secure remote access.</p>
+            <div class="skill-grid">
+                <div class="skill-card"><h3>4.1-4.3 Core Services</h3><ul><li>Configure and verify inside source NAT (static and pools)</li><li>Configure NTP in client and server mode</li><li>Explain the roles of DHCP and DNS</li></ul></div>
+                <div class="skill-card"><h3>4.4-4.6 Management & Monitoring</h3><ul><li>Explain the function of SNMP</li><li>Describe syslog features (facilities, levels)</li><li>Configure a DHCP client and relay agent</li></ul></div>
+                <div class="skill-card"><h3>4.7-4.9 QoS & File Transfer</h3><ul><li>Explain QoS concepts (classification, marking, queuing)</li><li>Configure network devices for remote access using SSH</li><li>Describe the use of TFTP/FTP in the network</li></ul></div>
+            </div>
+        </section>
+
+        <!-- 5.0 Security Fundamentals -->
+        <section id="security" class="skill-domain">
+            <h2>5.0 Security Fundamentals (15%)</h2>
+            <p class="section-description">Introduces key security concepts, access control, VPNs, Layer 2 security features, and wireless security protocols.</p>
+            <div class="skill-grid">
+                <div class="skill-card"><h3>5.1-5.4 Device & Password Security</h3><ul><li>Define threats, vulnerabilities, and exploits</li><li>Configure device access control with local passwords</li><li>Describe password policy elements (MFA, biometrics)</li></ul></div>
+                <div class="skill-card"><h3>5.5-5.6 VPNs & ACLs</h3><ul><li>Describe IPsec remote access and site-to-site VPNs</li><li>Configure and verify standard and extended ACLs</li></ul></div>
+                <div class="skill-card"><h3>5.7-5.10 L2 & Wireless Security</h3><ul><li>Configure DHCP Snooping, Dynamic ARP Inspection, Port Security</li><li>Compare AAA concepts</li><li>Describe WPA, WPA2, and WPA3 protocols</li><li>Configure a WLAN using WPA2 PSK in the GUI</li></ul></div>
+            </div>
+        </section>
+
+        <!-- 6.0 Automation and Programmability -->
+        <section id="automation" class="skill-domain">
+            <h2>6.0 Automation and Programmability (10%)</h2>
+            <p class="section-description">Explores the shift towards modern networking with controller-based architectures, APIs, and configuration management tools.</p>
+            <div class="skill-grid">
+                <div class="skill-card"><h3>6.1-6.3 Controller-Based Networking</h3><ul><li>Explain how automation impacts network management</li><li>Compare traditional vs. controller-based networks</li><li>Describe SDA architecture (overlay, underlay, fabric)</li></ul></div>
+                <div class="skill-card"><h3>6.4-6.5 APIs & AI/ML</h3><ul><li>Explain the role of AI and ML in network operations</li><li>Describe REST-based APIs (CRUD, HTTP verbs, data encoding)</li><li>Understand Northbound and Southbound APIs</li></ul></div>
+                <div class="skill-card"><h3>6.6-6.7 Config Management & Data</h3><ul><li>Recognize capabilities of Ansible and Terraform</li><li>Recognize components of JSON-encoded data</li></ul></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Upgraded Syllabus Guide. Content based on the official Cisco CCNA 200-301 v1.1 syllabus.</p>
+    </footer>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

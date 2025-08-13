@@ -5,6 +5,10 @@
 
 A beautifully designed, single-page web application that presents the Cisco CCNA 200-301 exam syllabus in an interactive and easy-to-navigate format. This project was created to provide a modern, user-friendly study aid for aspiring network professionals, transforming the standard PDF syllabus into an engaging web experience.
 
+## 📖 About
+This a screenshot of the CCNA 200-301 Ultimate Syllabus Guide, a single-page web application that presents the Cisco CCNA 200-301 exam syllabus in an interactive and easy-to-navigate format.
+![Screenshot of the UI](Screen_shot.png)
+
 ## ✨ Features
 
 - **Fully Responsive Design:** Looks and works great on desktops, tablets, and mobile devices.
@@ -32,7 +36,7 @@ To view the project locally, simply follow these steps:
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd ccna-syllabus-guide
+    cd ccna-syllabus
     ```
 3.  **Open the `index.html` file in your favorite web browser.**
     - You can typically do this by double-clicking the file in your file explorer or using a command like `open index.html` (on macOS) or `start index.html` (on Windows).
